@@ -1,0 +1,12 @@
+D:\Projects\QLPT.HUMG\DAL\bin\Debug\DAL.dll.config
+D:\Projects\QLPT.HUMG\DAL\bin\Debug\DAL.dll
+D:\Projects\QLPT.HUMG\DAL\bin\Debug\DAL.pdb
+D:\Projects\QLPT.HUMG\DAL\bin\Debug\EntityFramework.dll
+D:\Projects\QLPT.HUMG\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\QLPT.HUMG\DAL\bin\Debug\EntityFramework.xml
+D:\Projects\QLPT.HUMG\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\QLPT.HUMG\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Projects\QLPT.HUMG\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\Projects\QLPT.HUMG\DAL\obj\Debug\DAL.dll
+D:\Projects\QLPT.HUMG\DAL\obj\Debug\DAL.pdb
+D:\Projects\QLPT.HUMG\DAL\obj\Debug\DAL.csprojAssemblyReference.cache

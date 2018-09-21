@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QuanLyPhongTroModelStoreContainer" CdmEntityContainer="QuanLyPhongTroEntities">
+    <EntitySetMapping Name="DichVus">
+      <EntityTypeMapping TypeName="QuanLyPhongTroModel.DichVu">
+        <MappingFragment StoreEntitySet="DichVu">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Ma" ColumnName="Ma" />
+          <ScalarProperty Name="Ten_Dich_Vu" ColumnName="Ten_Dich_Vu" />
+          <ScalarProperty Name="Don_Gia" ColumnName="Don_Gia" />
+          <ScalarProperty Name="Don_Vi" ColumnName="Don_Vi" />
+          <ScalarProperty Name="Quy_Tac_Tinh_Tien" ColumnName="Quy_Tac_Tinh_Tien" />
+          <ScalarProperty Name="Mo_Ta" ColumnName="Mo_Ta" />
+          <ScalarProperty Name="Id_Nha_Tro" ColumnName="Id_Nha_Tro" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KhachHangs">
+      <EntityTypeMapping TypeName="QuanLyPhongTroModel.KhachHang">
+        <MappingFragment StoreEntitySet="KhachHang">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Ma_Khach_Hang" ColumnName="Ma_Khach_Hang" />
+          <ScalarProperty Name="Ten_Khach_Hang" ColumnName="Ten_Khach_Hang" />
+          <ScalarProperty Name="CMT" ColumnName="CMT" />
+          <ScalarProperty Name="Anh_Dai_Dien" ColumnName="Anh_Dai_Dien" />
+          <ScalarProperty Name="Anh_CMT_Mat_Truoc" ColumnName="Anh_CMT_Mat_Truoc" />
+          <ScalarProperty Name="Anh_CMT_Mat_Sau" ColumnName="Anh_CMT_Mat_Sau" />
+          <ScalarProperty Name="Ho_Ten" ColumnName="Ho_Ten" />
+          <ScalarProperty Name="Dia_Chi" ColumnName="Dia_Chi" />
+          <ScalarProperty Name="Gioi_Tinh" ColumnName="Gioi_Tinh" />
+          <ScalarProperty Name="SDT" ColumnName="SDT" />
+          <ScalarProperty Name="Nghe_Nghiep" ColumnName="Nghe_Nghiep" />
+          <ScalarProperty Name="Noi_Cong_Tac" ColumnName="Noi_Cong_Tac" />
+          <ScalarProperty Name="Dang_Ky_Tam_Tru" ColumnName="Dang_Ky_Tam_Tru" />
+          <ScalarProperty Name="Ho_Ten_Nguoi_Than" ColumnName="Ho_Ten_Nguoi_Than" />
+          <ScalarProperty Name="TrangThai" ColumnName="TrangThai" />
+          <ScalarProperty Name="Id_Phong" ColumnName="Id_Phong" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NhaTroes">
+      <EntityTypeMapping TypeName="QuanLyPhongTroModel.NhaTro">
+        <MappingFragment StoreEntitySet="NhaTro">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Ma" ColumnName="Ma" />
+          <ScalarProperty Name="Ten_Toa" ColumnName="Ten_Toa" />
+          <ScalarProperty Name="Dia_Chi" ColumnName="Dia_Chi" />
+          <ScalarProperty Name="Mo_Ta" ColumnName="Mo_Ta" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Phongs">
+      <EntityTypeMapping TypeName="QuanLyPhongTroModel.Phong">
+        <MappingFragment StoreEntitySet="Phong">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Ma_Phong" ColumnName="Ma_Phong" />
+          <ScalarProperty Name="Ten_Phong" ColumnName="Ten_Phong" />
+          <ScalarProperty Name="Tang" ColumnName="Tang" />
+          <ScalarProperty Name="So_Nguoi_Toi_Da" ColumnName="So_Nguoi_Toi_Da" />
+          <ScalarProperty Name="Don_Gia" ColumnName="Don_Gia" />
+          <ScalarProperty Name="Tinh_Trang" ColumnName="Tinh_Trang" />
+          <ScalarProperty Name="Mo_Ta" ColumnName="Mo_Ta" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="QuanLyPhongTroModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ThietBis">
+      <EntityTypeMapping TypeName="QuanLyPhongTroModel.ThietBi">
+        <MappingFragment StoreEntitySet="ThietBi">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Ma" ColumnName="Ma" />
+          <ScalarProperty Name="Id_Nha_Tro" ColumnName="Id_Nha_Tro" />
+          <ScalarProperty Name="Don_Gia" ColumnName="Don_Gia" />
+          <ScalarProperty Name="Gia_Boi_Thuong" ColumnName="Gia_Boi_Thuong" />
+          <ScalarProperty Name="Trang_Thai" ColumnName="Trang_Thai" />
+          <ScalarProperty Name="Don_Vi" ColumnName="Don_Vi" />
+          <ScalarProperty Name="Mo_Ta" ColumnName="Mo_Ta" />
+          <ScalarProperty Name="Id_Phong" ColumnName="Id_Phong" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ThuePhongs">
+      <EntityTypeMapping TypeName="QuanLyPhongTroModel.ThuePhong">
+        <MappingFragment StoreEntitySet="ThuePhong">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Ma" ColumnName="Ma" />
+          <ScalarProperty Name="Id_KhachHang" ColumnName="Id_KhachHang" />
+          <ScalarProperty Name="Id_Phong" ColumnName="Id_Phong" />
+          <ScalarProperty Name="Ngay_Den" ColumnName="Ngay_Den" />
+          <ScalarProperty Name="Ngay_Di" ColumnName="Ngay_Di" />
+          <ScalarProperty Name="Ten_Nhan_Vien" ColumnName="Ten_Nhan_Vien" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="QuanLyPhongTroModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="QuanLyPhongTroModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="QuanLyPhongTroModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="QuanLyPhongTroModel.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="QuanLyPhongTroModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="QuanLyPhongTroModel.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="QuanLyPhongTroModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="QuanLyPhongTroModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="QuanLyPhongTroModel.Store.sp_upgraddiagrams" />
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,12 @@
+D:\Projects\QLPT.HUMG\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+D:\Projects\QLPT.HUMG\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\Projects\QLPT.HUMG\BLL\bin\Debug\BLL.dll
+D:\Projects\QLPT.HUMG\BLL\bin\Debug\BLL.pdb
+D:\Projects\QLPT.HUMG\BLL\bin\Debug\DAL.dll
+D:\Projects\QLPT.HUMG\BLL\bin\Debug\EntityFramework.dll
+D:\Projects\QLPT.HUMG\BLL\bin\Debug\DAL.pdb
+D:\Projects\QLPT.HUMG\BLL\bin\Debug\DAL.dll.config
+D:\Projects\QLPT.HUMG\BLL\bin\Debug\EntityFramework.xml
+D:\Projects\QLPT.HUMG\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\Projects\QLPT.HUMG\BLL\obj\Debug\BLL.dll
+D:\Projects\QLPT.HUMG\BLL\obj\Debug\BLL.pdb
